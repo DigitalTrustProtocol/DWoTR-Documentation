@@ -8,7 +8,7 @@ A Decentralized Web of Trust Reputation system is a network that allows individu
 
 One key advantage of using a decentralized web of trust network is that it can be resistant to manipulation and censorship. Because the trust relationships are established directly between individuals, rather than being mediated by a central authority, it is more difficult for any one entity to manipulate or censor the trust relationships within the network. This can make it more difficult for bad actors to gain undeserved trust or to undermine the trust of others, and can help to ensure that the trust relationships within the network are more accurate and reliable.
 
-The DWoTR system is comprised of various components, using a blockchain, a graph database, a browser, and API services, which work together to facilitate communication, aggregation, and analysis of trust and reputation data.
+The DWoTR system is comprised of various components, using relay servers, a graph database, a browser, and API services, which work together to facilitate communication, aggregation, and analysis of trust and reputation data.
 
 This document will describe the fundamental philosophical perspectives in the DWoTR system.
 
@@ -253,7 +253,7 @@ Overall, digital recording of trust allows individuals to more easily and effici
 
 Contradicting DWoTR
 -------------------
-One example that contradicts the dominant narrative of the DWoTR system is the issue of centralization. While the DWoTR system aims to be decentralized, it is still dependent on the use of a blockchain, which may be controlled by a small group of individuals or organizations. This could lead to centralization of power and influence within the system, despite its intended decentralized nature.
+One example that contradicts the dominant narrative of the DWoTR system is the issue of centralization. While the DWoTR system aims to be decentralized, it is still dependent on relay servers, which may be controlled by a small group of individuals or organizations. This could lead to centralization of power and influence within the system, despite its intended decentralized nature.
 
 Another example is the issue of subjectivity and bias. While the DWoTR system aims to provide a objective assessment of trust and reputation, it is still dependent on the subjective opinions and claims of the people using it. This could lead to issues of bias or manipulation, especially if certain individuals or groups have disproportionate influence within the system.
 
@@ -273,7 +273,7 @@ A decentralized web of trust reputation system can help filter information and a
 
 * Personalized reputation: In a decentralized reputation system, each individual has their own reputation score based on the opinions and experiences of their own trusted network. This allows individuals to make decisions based on the reputation of sources within their own trusted network, rather than relying on a centralized reputation system that may not align with their personal values or experiences.
 
-* Increased transparency: Decentralized reputation systems often rely on blockchain technology, which allows for increased transparency and accountability in the reputation-building process. This can help individuals make more informed decisions about who or what to trust by providing a clear and verifiable record of reputation-related activities.
+* Increased transparency: Decentralized reputation systems often rely on relay technology, which allows for increased transparency and accountability in the reputation-building process. This can help individuals make more informed decisions about who or what to trust by providing a clear and verifiable record of reputation-related activities.
 
 * Increased security: Decentralized reputation systems can also increase security by reducing the risk of centralized points of failure or manipulation. For example, a centralized reputation system may be vulnerable to hacking or false reviews, while a decentralized system can be more resistant to these types of attacks.
 
