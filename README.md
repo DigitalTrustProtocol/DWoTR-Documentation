@@ -39,3 +39,20 @@ Let's consider an example for further clarity. Imagine four friends: Alice, Bob,
 In this scenario, if Dana shares some information, Alice would consider it trustworthy because Dana falls within her 3-degree trust network. Now, let's say Bob changes his mind about Charlie and issues a distrust claim. Then, even though Charlie still trusts Dana, Alice would no longer trust Dana's information because her path to Dana (via Bob and Charlie) is broken by Bob's distrust claim.
 
 This example illustrates how the system enables trust to be earned, distributed, and revised in a network, ensuring that only reliable information is accepted.
+
+
+## Trust is subjective
+
+Trust, by its very nature, is subjective and heavily influenced by personal experiences, beliefs, and values. The same applies to our Decentralized Web of Trust Reputation system. It’s important to note that trust established through this system is inherently subjective, reflecting the unique perspectives and contexts of individual users, rather than claiming to offer an absolute or objective truth.
+
+When a Key makes a trust claim, it's expressing its personal assessment, which can vary greatly from one Key to another based on their unique experiences and judgments. Similarly, when a Key evaluates the trustworthiness of an Item, the outcome is influenced by their position in the trust network and the trust claims of the Keys within their network. This allows for diverse views and interpretations, reflecting the complex nature of trust in real life.
+
+This emphasis on subjectivity ensures that each user's experience with the system is personalized, allowing trust to be understood and established in a way that makes the most sense to them. By acknowledging that trust is a nuanced and context-driven concept, our system encourages users to critically evaluate the trust claims they encounter, promoting more informed decision-making and a more authentic online experience.
+
+In this sense, the Decentralized Web of Trust Reputation system is not designed to dictate what is true or false universally. Instead, it provides a framework for users to express, explore, and evaluate trust within their own context, enhancing the richness and diversity of the digital trust landscape.
+
+While the Decentralized Web of Trust Reputation system emphasizes the subjectivity of trust, it's important to distinguish this from the concept of universal truths. Universal truths are facts or principles that are objectively true in all contexts, irrespective of individual perspectives. For instance, gravity's effect on a falling object or the process of photosynthesis in plants are universal truths, unaffected by personal beliefs or trust.
+
+In our system, subjectivity applies specifically to trust claims and relationships, reflecting the personal judgments and experiences of each Key. This does not mean that universal truths can be disputed through trust claims in this system. Facts remain facts, irrespective of whether an individual Key trusts or distrusts them.
+
+Our system is designed to handle personal trust relationships and subjective judgments, not to mediate objective reality or universal truths. Trust claims should be understood as expressions of personal trust, rather than declarations of fact. As such, the system is not intended to replace rigorous fact-checking or scientific investigation, but to complement them by providing a framework for expressing and navigating personal trust in a digital environment.
