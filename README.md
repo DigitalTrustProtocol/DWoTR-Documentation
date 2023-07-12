@@ -85,7 +85,7 @@ The Trust1 model is rooted in a ternary system of trust representation: -1, 0, a
 
 2. **Universality**: The intuitiveness and simplicity of the ternary system make it universally relevant, transcending individual or cultural variances in expressing or understanding trust.
 
-3. **Robustness**: The Trust1 model, while simple, is robust enough to represent a diverse range of trust relationships. This is achieved through additional properties like 'Created_at', 'activate', 'expire', 'note', and 'context'. These properties offer depth and specificity to trust evaluations without complicating the fundamental trust score.
+3. **Robustness**: The Trust1 model, while simple, is robust enough to represent a diverse range of trust relationships. This is achieved through additional properties like 'created_at', 'activate', 'expire', 'note', and 'context'. These properties offer depth and specificity to trust evaluations without complicating the fundamental trust score.
 
    - 'Created_at' is a timestamp indicating when the trust claim was made. It provides a verifiable record of the trust claim's creation, which is particularly useful for tracking changes in trust over time.
    - 'activate' and 'expire' allow for the scheduling and lifecycle management of trust claims, ensuring that each claim is relevant and current.
