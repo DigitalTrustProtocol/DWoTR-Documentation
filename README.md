@@ -76,3 +76,23 @@ There are several reasons for this hesitation.
 That said, while these challenges are real, they are not insurmountable. A well-designed peer-to-peer reputation system should address these concerns, providing clear guidelines, robust privacy safeguards, and mechanisms to handle misuse or dispute resolution. Furthermore, such systems should emphasize that they're tools for expressing personal trust, not objective truth, and are meant to complement, not replace, our existing ways of forming and managing personal relationships.
 
 Overall, peer-to-peer reputation systems, like the Decentralized Web of Trust Reputation system, have the potential to empower individuals, allowing us to take control of our digital reputations and navigate the online world with greater confidence and security. They can democratize trust in the digital sphere, but it's vital that they are designed and used with care, respecting our needs for privacy, fairness, and control.
+
+## Trust1
+
+The Trust1 model is rooted in a ternary system of trust representation: -1, 0, and 1, signifying distrust, neutral, and trust, respectively. This framework simplifies the conceptualization of trust, offering straightforward implementation and interpretation for both system calculations and user interactions. The reasons for favoring the Trust1 ternary system over more granular scales include:
+
+1. **Simplicity and Intuitiveness**: The ternary system streamlines the articulation of trust and distrust. Users are able to express trust or distrust without pondering over the degree of trust on a more nuanced scale, such as 1-10 or 1-100. This makes the system more accessible and minimizes interpretation disparities.
+
+2. **Universality**: The intuitiveness and simplicity of the ternary system make it universally relevant, transcending individual or cultural variances in expressing or understanding trust.
+
+3. **Robustness**: The Trust1 model, while simple, is robust enough to represent a diverse range of trust relationships. This is achieved through additional properties like 'Created_at', 'activate', 'expire', 'note', and 'context'. These properties offer depth and specificity to trust evaluations without complicating the fundamental trust score.
+
+   - 'Created_at' is a timestamp indicating when the trust claim was made. It provides a verifiable record of the trust claim's creation, which is particularly useful for tracking changes in trust over time.
+   - 'activate' and 'expire' allow for the scheduling and lifecycle management of trust claims, ensuring that each claim is relevant and current.
+   - 'note' facilitates qualitative elaboration or clarification regarding the trust claim, thereby enriching the context of the trust information.
+   - 'context' enables the declaration of trust within a specific context or domain, acknowledging that trust isn't a universally constant value and may differ depending on the situation or area of expertise.
+
+4. **Flexibility and Extensibility**: While the Trust1 format serves as the basic infrastructure for expressing trust or distrust, it's designed to be both flexible and expandable. The system can incorporate additional trust formats like 'Confirmation' or 'Rating100', to convey more specific or nuanced types of trust. These additional forms of trust are not simply replacements for Trust1 claims, but supplementary perspectives that can provide a more nuanced understanding of the subject's trustworthiness. The system does not limit the number of different trust types that can be used, allowing the community to determine what becomes standard. However, the Trust1 format remains at the core, functioning as the default method for resolving searches within the Web of Trust network.
+
+In essence, the Trust1 ternary system offers a user-friendly, universal, robust, and flexible foundation for representing trust. The integration of a straightforward ternary scale with additional descriptive properties and extensible trust formats, renders the Trust1 system a comprehensive solution for a wide array of trust evaluation needs.
+
