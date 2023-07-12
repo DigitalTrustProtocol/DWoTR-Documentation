@@ -96,3 +96,14 @@ The Trust1 model is rooted in a ternary system of trust representation: -1, 0, a
 
 In essence, the Trust1 ternary system offers a user-friendly, universal, robust, and flexible foundation for representing trust. The integration of a straightforward ternary scale with additional descriptive properties and extensible trust formats, renders the Trust1 system a comprehensive solution for a wide array of trust evaluation needs.
 
+## Trust1: The Essential Foundation of Trust Networks
+
+The Trust1 system lies at the core of the Web of Trust. Using values of -1, 0, or 1, it paints a broad picture of trust between entities, establishing the bedrock upon which more nuanced forms of trust can be built and understood. Other forms of trust, like Rating100 and Confirmation, derive their relevance from the context provided by the foundational Trust1 system.
+
+Let's break down this interplay further with examples of Rating100 and Confirmation:
+
+1. Rating100: This model offers a granular perspective on trustworthiness, grading it on a scale from 1 to 100. However, the Rating100 score of an entity is meaningful only if a Trust1 link, acting as a trust pathway, exists between the source and the subject. When the Trust1 value is 1 (Trust), the Rating100 score provides a more nuanced picture of trust. Conversely, if the Trust1 value is -1 (Distrust) or 0 (Neutral), the Rating100 loses its relevance, regardless of its detailed assessment.
+
+2. Confirmation: This form of trust represents a claim of existence or non-existence about a particular subject or item. Much like Rating100, a Confirmation claim depends on the Trust1 system for its contextual relevance. A Confirmation claim's importance arises when there's a trust pathway (Trust1 value of 1) between the entities. Without this foundational trust, the Confirmation claim, even though it provides crucial information, lacks the necessary context to be meaningful.
+
+In essence, the Trust1 system lays the groundwork for the overall trust dynamics within the network. While more detailed trust models like Rating100 or informative trust claims like Confirmation add richness and depth to the trust landscape, their significance and interpretability are always rooted in the Trust1 system. Without this fundamental network of trust and distrust, the contextual relevance of other forms of trust would be lost. The evaluation of trust within the Web of Trust, therefore, always circles back to the Trust1 system, underlining its critical role in the trust network.
